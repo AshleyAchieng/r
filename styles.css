@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#333 ;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-bar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-options button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-options .active {
+    background-color: #333;
+    color: #fff;
+}
+
+.search-field {
+    display: flex;
+    align-items: center;
+}
+
+.search-field select, .search-field input {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.search-field button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.property-image {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    margin-right: 20px;
+}
+
+.property-details h2 {
+    margin: 0;
+}
+
+.property-details p {
+    margin: 10px 0;
+}
+
+.property-nav {
+    display: flex;
+    overflow-x: scroll;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.property-nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.featured-properties {
+    padding: 20px;
+}
+
+.featured-properties h2 {
+    margin-bottom: 20px;
+}
+
+.properties {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.property {
+    width: 18%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.property-image {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+
+.property-info {
+    padding: 10px;
+}
+
+.property-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.property-info p {
+    margin: 5px 0;
+}
+
+.blog {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+.blog h2 {
+    margin-bottom: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog-post {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.blog-image {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+}
+
+.blog-info {
+    padding: 10px;
+}
+
+.blog-info h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.blog-info p {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    width: 20%;
+}
+
+footer .footer-section h4 {
+    margin-bottom: 10px;
+}
+
+footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-section ul li {
+    margin-bottom: 10px;
+}
+
+footer .footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.medium-image {
+    width: 300px;
+    height: 225px;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+}
+.footer-bottom ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer-bottom ul li {
+    margin-right: 20px;
+}
+
+.footer-bottom ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom .social-media a {
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+#navbar__logo {
+    background-color:blue;
+    background-image: linear-gradient(blue);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  .fa-gem {
+    margin-right: 0.5rem;
+  }
+.image{
+    width: fit-content;
+    height: fit-content;
+}
